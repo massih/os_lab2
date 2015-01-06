@@ -1,0 +1,462 @@
+warning: can't find squish-pty, so terminal input will fail
+bochs -q
+PiLo hda1
+Loading.......
+Kernel command line: -q run batch-scheduler
+Pintos booting with 4,096 kB RAM...
+383 pages available in kernel pool.
+383 pages available in user pool.
+Calibrating timer...  204,600 loops/s.
+Boot complete.
+Executing 'batch-scheduler':
+(batch-scheduler) begin
+1
+p is :  0
+2
+p is :  0
+p is :  0
+2
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+p is :  0
+1
+p is :  0
+2
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+1
+p is :  0
+3
+p is :  0
+2
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+p is :  0
+3
+3
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+p is :  0
+2
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+3
+p is :  0
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+p is :  0
+3
+3
+p is :  0
+p is :  0
+p is :  0
+3
+3
+p is :  0
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+2
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+3
+p is :  0
+3
+p is :  0
+p is :  0
+p is :  0
+p is :  0
+3
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+p is :  0
+1
+p is :  0
+(batch-scheduler) PASS
+(batch-scheduler) p is :  0
+end
+1
+p is :  0
+Execution of 'batch-scheduler' complete.
+Timer: 4974 ticks
+Thread: 0 idle ticks, 4996 kernel ticks, 0 user ticks
+Console: 3617 characters output
+Keyboard: 0 keys pressed
+Powering off...
+========================================================================
+                     Bochs x86 Emulator 2.6.6.svn
+              Built from SVN snapshot after release 2.6.6
+                  Compiled on Oct  2 2014 at 19:49:41
+========================================================================

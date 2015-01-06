@@ -96,15 +96,13 @@ timer_sleep (int64_t ticks)
   ASSERT (intr_get_level () == INTR_ON);
 
   if(ticks > 0){
+    // disable the interupt
     enum intr_level old_level = intr_disable ();
+    // set wake up time for current thread
     thread_current()->wakeup_time = ticks + start;
     thread_block();
-    intr_set_level (old_level);
+    intr_set_level (old_level);//enable the interupt
   }
-  // thread_unblock();
-
- // while (timer_elapsed (start) < ticks) 
- //   thread_yield ();
 
 }
 
@@ -183,24 +181,20 @@ static void
 timer_interrupt (struct intr_frame *args UNUSED)
 {
   ticks++;
+  // a pointer to check_wakeup function
   void  (*chkwk)(struct thread* , void*) = &check_wakeup;
+  // itterate over all threads and perform check_wakeup function on each thread
   thread_foreach(chkwk, ticks);
   thread_tick ();
 
 }
-
+/* The function check wake up time of specific thread is reached then unblock it*/
 void check_wakeup(struct thread *t, void *currenttime){
-
-  // enum intr_level old_level = intr_disable ();
-  if(currenttime){
-    int64_t st = currenttime;
-    int64_t en = t->wakeup_time;  
-    if(st == en){
+  if(currenttime){ 
+    if(currenttime == t->wakeup_time){
       thread_unblock(t);
     }
   }
-  // intr_set_level (old_level);
-
 }
 
 
